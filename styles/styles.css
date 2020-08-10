@@ -580,7 +580,7 @@ footer {
 }
 
 /*versión web*/
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .contenedor-header {
     height: 80px;
     display: -webkit-box;

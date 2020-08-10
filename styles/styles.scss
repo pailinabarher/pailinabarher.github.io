@@ -15,6 +15,13 @@ $color:#060A24;
     margin-right: 11px;
 }
 
+%primer-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
@@ -55,7 +62,7 @@ header {
         display: block;
         padding: 10px 10px;
         text-decoration: none;
-        padding: 0.4em;
+        padding-left: 20px;
         transition: all 500ms ease;
         @extend %tittle;
         color: white;
@@ -242,11 +249,11 @@ h1 {
     color: $color;
 }
 
-#primer-boton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+#primer-boton-contenedor {
+@extend %primer-boton;
+}
+.primer-boton {
+    @extend %primer-boton;
 }
 
 .tittle {
@@ -440,6 +447,12 @@ footer {
         }
     }
 
+    #primer-boton-contenedor {
+        display: flex;
+        justify-content: flex-start ;
+        margin-left: 50px;
+    }
+
     #titulo-principal {
         padding-top: 50px;
         padding-left: 50px;
@@ -622,9 +635,8 @@ footer {
         font-size: 2em;
     }
 
-    #primer-boton {
+    #primer-boton-contenedor {
         margin-left: 200px;
-
     }
 
     #texto-de-donde {
@@ -661,7 +673,7 @@ footer {
     #phone {
         width: 35vw;
         height: 57vw;
-        bottom: 14vw;
+        bottom: 14vh;
         right: 20vw;
     }
 

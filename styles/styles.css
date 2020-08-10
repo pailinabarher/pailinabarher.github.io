@@ -470,6 +470,9 @@ footer {
     padding-left: 50px;
     width: 600px;
   }
+  #pale {
+    margin-left: 9px;
+  }
   #gridepisodios {
     -ms-grid-rows: 0.9fr 1fr 2fr;
     -ms-grid-columns: (1fr)[2];
@@ -634,9 +637,6 @@ footer {
   #punto {
     color: #0000EC;
   }
-  #pale {
-    margin-left: 9px;
-  }
   main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -699,7 +699,7 @@ footer {
   #phone {
     width: 35vw;
     height: 57vw;
-    bottom: 14vh;
+    bottom: 16vh;
     right: 20vw;
   }
   #div-phone {

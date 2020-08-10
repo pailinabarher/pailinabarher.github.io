@@ -464,6 +464,10 @@ footer {
         padding-left: 50px;
         width: 600px;
     }
+  
+    #pale {
+        margin-left: 9px;
+    }
 
     #gridepisodios {
         grid-template: 0.9fr 1fr 2fr / repeat(2, 1fr);
@@ -614,10 +618,6 @@ footer {
         color: #0000EC;
     }
 
-    #pale {
-        margin-left: 9px;
-    }
-
     main {
         display: flex;
         flex-flow: column wrap;
@@ -673,7 +673,7 @@ footer {
     #phone {
         width: 35vw;
         height: 57vw;
-        bottom: 14vh;
+        bottom: 16vh;
         right: 20vw;
     }
 

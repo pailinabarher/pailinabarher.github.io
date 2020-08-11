@@ -332,20 +332,6 @@ iframe {
 }
 
 #div-phone {
-    width: 100%;
-    
-    display: block;
-    max-width: 950px;
-    margin: auto;
-    transform: translateY(-20%);
-}
-
-#phone {
-    width: 100%;
-}
-
-/*
-#div-phone {
     display: flex;
     justify-content: center;
     height: 120vw;
@@ -355,7 +341,7 @@ iframe {
     width: 96vw;
     height: 140vw;
     bottom: 15vh;
-}*/
+}
 
 .contenedor-2 {
     display: grid;
@@ -452,7 +438,7 @@ footer {
 }
 
 /*tablet*/
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 640px) {
 
     .contenedor-header {
         .logo {

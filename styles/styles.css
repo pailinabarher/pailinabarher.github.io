@@ -224,7 +224,6 @@ h1 {
 #line {
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
-  margin-left: 9px;
 }
 
 #link {
@@ -297,22 +296,30 @@ iframe {
 }
 
 #div-phone {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 120vw;
+  width: 100%;
+  display: block;
+  max-width: 950px;
+  margin: auto;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 #phone {
-  position: relative;
-  width: 96vw;
-  height: 140vw;
-  bottom: 15vh;
+  width: 100%;
 }
 
+/*
+#div-phone {
+    display: flex;
+    justify-content: center;
+    height: 120vw;
+}
+#phone {
+    position: relative;
+    width: 96vw;
+    height: 140vw;
+    bottom: 15vh;
+}*/
 .contenedor-2 {
   display: -ms-grid;
   display: grid;
@@ -469,9 +476,6 @@ footer {
   #parrafo1 {
     padding-left: 50px;
     width: 600px;
-  }
-  #pale {
-    margin-left: 9px;
   }
   #gridepisodios {
     -ms-grid-rows: 0.9fr 1fr 2fr;
@@ -699,7 +703,7 @@ footer {
   #phone {
     width: 35vw;
     height: 57vw;
-    bottom: 16vh;
+    bottom: 19vh;
     right: 20vw;
   }
   #div-phone {

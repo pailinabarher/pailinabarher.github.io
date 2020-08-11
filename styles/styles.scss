@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -21,12 +27,6 @@ $color:#060A24;
     align-items: center;
     text-decoration: none;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
 
 /*mobile first*/
 body {
@@ -273,7 +273,7 @@ h1 {
 
 #line {
     text-decoration-line: line-through;
-    margin-left: 9px;
+   
 }
 
 #link {
@@ -332,17 +332,30 @@ iframe {
 }
 
 #div-phone {
+    width: 100%;
+    
+    display: block;
+    max-width: 950px;
+    margin: auto;
+    transform: translateY(-20%);
+}
+
+#phone {
+    width: 100%;
+}
+
+/*
+#div-phone {
     display: flex;
     justify-content: center;
     height: 120vw;
 }
-
 #phone {
     position: relative;
     width: 96vw;
     height: 140vw;
     bottom: 15vh;
-}
+}*/
 
 .contenedor-2 {
     display: grid;
@@ -449,7 +462,7 @@ footer {
 
     #primer-boton-contenedor {
         display: flex;
-        justify-content: flex-start ;
+        justify-content: flex-start;
         margin-left: 50px;
     }
 
@@ -465,10 +478,6 @@ footer {
         width: 600px;
     }
   
-    #pale {
-        margin-left: 9px;
-    }
-
     #gridepisodios {
         grid-template: 0.9fr 1fr 2fr / repeat(2, 1fr);
     }
@@ -673,7 +682,7 @@ footer {
     #phone {
         width: 35vw;
         height: 57vw;
-        bottom: 16vh;
+        bottom: 19vh;
         right: 20vw;
     }
 
